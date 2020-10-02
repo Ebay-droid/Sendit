@@ -1,0 +1,27 @@
+{% extends 'base.html'%}
+{% import 'bootstrap/wtf.html' as wtf%}
+
+{%block content%}
+<!-- Order form -->
+<div class="row">
+  <div class="col-md-6">
+    <div class="card">
+
+    </div>
+  </div>
+  <!-- Display the order -->
+  <div class="col-md-6">
+    <div class="list-group-flush">
+      <div class="list-group-item">
+        <p class="mb-0"><i class="fas fa-user-alt fa-2x mr-4 blue p-3 white-text rounded " aria-hidden="true"></i>Username: </p>
+      </div>
+      <div class="list-group-item">
+        <p class="mb-0"> <i class="ffas fa-boxes fa-2x mr-4 mr-4 red p-3 white-text rounded" aria-hidden="true"></i>Parcel id: </p>
+      </div>
+      <div class="list-group-item">
+        <p class="mb-0"><i class="fas fa-home fa-2x mr-4 mr-4 purple p-3 white-text rounded" aria-hidden="true"></i>Destination: </p>
+      </div>
+    </div>
+  </div>
+</div>
+{%endblock%}
